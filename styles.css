@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        /* Image styling */
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        /* Title styling */
+        .card h1 {
+            color: #333;
+        }
+
+        /* Pricing information styling */
+        .card p.price {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        /* Description styling */
+        .card p.description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        /* Buy Now button styling */
+        .card button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
